@@ -1,0 +1,14 @@
+Documentation for Minimum Distance Determiner:
+
+This program uses a minimum edit distance matrix to determine how close two words are to 
+each other.
+The implementation of the principal alogorithms is in filler.py. These algortihms compute 
+the minimum edit distance matrix, the distance between the two words, and also neatly 
+display the distance matrix for the two words.
+
+To run the program, execute the file MED2.0.py
+The program begins by asking for:
+1)The two word to be compared
+2)The costs of the insert, delete, and substitution operations
+The minimum distance is then displayed, and the user is given the option to view the 
+distance matrix
